@@ -3,13 +3,13 @@ import Link from "next/link"
 export default function formLogin() {
     return (
         <div className="w-full">
-      {/* Header */}
+
       <div className="p-6">
         <h3 className="text-xl font-semibold text-stone-950">Login</h3>
         <p className="text-sm text-gray-500">Acesse sua conta para gerenciar seus hotéis</p>
       </div>
 
-      {/* Content */}
+
       <div className="p-6 pt-0 space-y-4">
         <div className="space-y-2">
           <label htmlFor="email" className="block text-sm font-medium text-stone-950">
@@ -49,7 +49,7 @@ export default function formLogin() {
         </button>
         <div className="text-center text-sm">
           Não tem uma conta?{" "}
-          <Link href="/cadastro" className="text-stone-950 hover:underline">
+          <Link href="/Cadastro" className="text-stone-950 hover:underline">
             Cadastre-se
           </Link>
         </div>
